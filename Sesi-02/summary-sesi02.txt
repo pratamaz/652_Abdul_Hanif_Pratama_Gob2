@@ -1,9 +1,9 @@
 Kode Peserta	: 149368582101-652 
 Nama Lengkap 	: Abdul Hanif Pratama
-Summary        : Sesi 02 - Fundamental Go Programming
-
+Summary           : Sesi 02 - Fundamental Go Programming
+ 
 ========================================================
-			Conditions
+			    Conditions
 ========================================================
 => Kondisional pada pemrograman dapat digunakan untuk 
    mengatur alur dari suatu program. Pada bahasa Go, 
@@ -21,7 +21,7 @@ Summary        : Sesi 02 - Fundamental Go Programming
 => Belajar nested conditions
 
 ========================================================
-			Looping
+			      Looping
 ========================================================
 => Perulangan adalah proses mengulang-ulang eksekusi blok 
    kode tanpa henti, selama kondisi yang dijadikan acuan 
@@ -45,7 +45,7 @@ d. nested looping
 
 
 ========================================================
-			Slice
+			      Slice
 ========================================================
 => Slice merupakan tipe data reference atau referensi
 => Slice tidak memiliki sifat fixed-length
@@ -85,7 +85,7 @@ d. nested looping
 
 
 ========================================================
-				        Strings In Depth
+			Strings In Depth
 ======================================================== 
 => Tipe data string pada Go terbentuk dari kumpulan tipe 
    data byte yang di letakkan di dalam slice atau bisa 
