@@ -1,0 +1,66 @@
+Kode Peserta 	: 149368582101-652 
+Nama Lengkap 	: Abdul Hanif Pratama
+Summary           : Sesi 01 - What is Go ?
+
+
+Catatan Pertemuan 1 (What is Go ?)
+==================================
+   Go Programming Introduction
+==================================
+=> Apa itu Web Service ?
+Web services sebagai penghubung antara back end dengan front end
+
+=> Go adalah sebuah bahasa pemrograman open-source yang dibuat di Google 
+pada tahun 2007 oleh Robert Griesemer, Rob Pike, dan Ken Thompson. Go memiliki
+kelebihan yaitu Clean And Simple, Concurrent, dan Fast.
+
+=> Melakukan Install Golang dan setup workspace
+=> Mengenal Go Modules, Commands pada Go
+=> Membuat project pertama dengan Go 
+
+==================
+    Variables
+==================
+=> Variable with Data Type (manifest typing)
+=> Variable without Data Type (type inference)
+=> Multiple Variable Declarations
+=> Underscore Variable	
+
+
+==================
+    Data Types
+==================
+Basic Type
+a. Number
+Tipe data number dibagi menjadi 2 sub-kategori yaitu 
+=> integer (non desimal/non floating-point)
+   Integer merupakan tipe data numerik non desimal pada bahasa Go. 
+   Secara umum integer dibagi menjadi sub-kategori yaitu uint dan int
+=> float (desimal/floating point)
+   Float merupakan tipe data numerik desimal pada bahasa Go. 
+   Secara umum float dibagi menjadi 2 jenis yaitu float32 dan float34.
+b. Bool
+Tipe data bool pada bahasa Go hanya terdiri dari 2 nilai yaitu false, 
+dan true.
+
+c. String
+Ciri khas dari tipe data string adalah nilainya di apit oleh tanda quote 
+atau petik dua (“”). Selain menggunakan tanda quote, deklarasi string juga 
+bisa dengan tanda grave accent/backticks (``)
+
+=> nil & Zero Value
+nil bukan merupakan tipe data, melainkan sebuah nilai. Variabel yang isi 
+nilainya nil berarti memiliki nilai kosong. Sedangkan zero merupakan nilai
+default tipe data.
+
+===========================
+    Constant & Operators
+===========================
+A. Constant
+Constant (const) atau Konstanta merupakan jenis variable pada bahasa Go 
+yang nilainya tidak dapat diubah. Constant dapat kita deklarasikan dengan
+keyword const.
+
+B. Operators
+Pada bahasa Go, terdapat 3 jenis operator yang perlu kita ketahui yaitu 
+operator aritmatika, operator logika dan operator perbandingan
