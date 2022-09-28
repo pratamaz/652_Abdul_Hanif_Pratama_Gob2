@@ -1,0 +1,49 @@
+Kode Peserta	: 149368582101-652 
+Nama Lengkap 	: Abdul Hanif Pratama
+Summary         : Sesi 05 - Channels, Defer & Exit,
+                  Error, Panic, & Recover
+
+ 
+==========================================================
+			    Channels
+==========================================================
+
+=> Channel merupakan sebuah mekanisme untuk Goroutine saling 
+   berkomunikasi dengan Goroutine lainnya. Maksud berkomunikasi 
+   disini adalah proses pengiriman dan pertukaran data antara 
+   Goroutine satu dengan Goroutine lainnya. 
+=> Keyword chan merupakan keyword untuk membuat channel.   
+=> Tanda <- merupakan sebuah operator dari channel untuk proses 
+   pengiriman data dari Goroutine satu dengan yang lainnya.
+=> Proses pengiriman dan penerimaan data dari channeI bersifat synchronous.
+=> Channel bersifat unbuffered atau tidak di buffer di memori yang dimana 
+   proses penerimaan dan pengiriman data bersifat synchronous.
+=> Lain halnya dengan unbuffered channel yang dimana kita dapat menentukkan 
+   kapasitas dari buffer nya, dan selama jumlah data yang dikirim melalui 
+   unbuffered channel tidak melebihi kapasitasnya, maka proses pengiriman 
+   data akan bersifat asynchronous.
+
+==========================================================
+			    Defer & Exit
+==========================================================
+
+=> Defer merupakan sebuah keyword pada bahasa Go yang digunakan untuk memanggil 
+   sebuah function yang dimana proses eksekusi akan di tahan hingga block sebuah 
+   function selesai.
+=> Funcion exit yang yang berasal dari package os berguna untuk menghentikan suatu 
+   program secara paksa   
+
+
+==========================================================
+			    Error, Panic & Recover
+==========================================================
+
+=> Error merupakan sebuah tipe data pada bahasa Go yang digunakan untuk me-return 
+   sebuah error jika ada error yang terjadi.
+=> Panic digunakan untuk menampilkan stack traceerror sekaligus menghentikan flow 
+   goroutine(karena main() juga merupakan goroutine, makabehaviour yang sama juga 
+   berlaku).
+=> Panic menampilkan pesan error di console, samaseperti fmt.Println(). Informasi 
+   error yangditampilkan adalah stack trace error, jadi sangatmendetail dan heboh.
+=> Function recover digunakan untuk menangkaperror yang terjadi pada sebuah Goroutine.   
+       
