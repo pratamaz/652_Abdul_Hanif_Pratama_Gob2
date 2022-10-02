@@ -1,0 +1,36 @@
+Kode Peserta	: 149368582101-652 
+Nama Lengkap 	: Abdul Hanif Pratama
+Summary        : Sesi 06 - Web Server & Gin Framework
+
+ 
+==========================================================
+			    Web Server
+==========================================================
+
+=> Package net/http digunakan untuk berbagai macam keperluan 
+   dalam membuat sebuah aplikasi berbasis web seperti contohnya 
+   routing, templating, web server dan lain-lain.
+=> Function HandleFunc digunakanuntuk keperluan routing, 
+   yang dimana function tersebut menerima 2 parameter. 
+=> Parameter pertama digunakan untuk mendefinisikan path routingnya, 
+   sedangkan parameter kedua menerima sebuahfunction dengan 2 
+   parameter yaitu http.ResponseWriter dan pointer http.Request.
+=> http.ResponseWriter adalah sebuah interface dengan berbagai method 
+   yang digunakan untuk mengirim response balikkepada client yang 
+   mengirimkan request.  
+=> http.Request adalah sebuah struct yang digunakan untukmendapat 
+   berbagai macam data request seperti form value,headers, url parameter 
+   dan lain-lain     
+=> Function ListenAndServe untuk menjalankan server aplikasi. 
+=> Function ListenAndServe menerima 2 parameter yaitu keterangan port
+   yang kita pakai, dan http.Handler yang merupakan sebuah interface.
+
+         
+==========================================================
+			    Gin Framework
+==========================================================
+
+=> Gin adalah sebauh framework untuk bahasa Go yang digunakan untuk 
+   keperluan http routing. Dengan menggunakan Gin, maka akan sangat 
+   mempermudah kita dalam membuat Rest API yang sudah pasti memerlukan 
+   fitur routing.     
