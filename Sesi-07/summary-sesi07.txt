@@ -1,0 +1,38 @@
+Kode Peserta	: 149368582101-652 
+Nama Lengkap 	: Abdul Hanif Pratama
+Summary         : Sesi 07 - Go SQL ver 2 & GORM
+
+==========================================================
+			    Database
+==========================================================
+=> Komponen utama penyusun suatu app yang terdiri dari 
+   sekumpulan data atau informasi yang tersimpan secara 
+   sistematis.
+=> Relational Database : Data disimpan dalam sebuah skema 
+   yang ditampilkan seperti tabel (terdiri dari baris dan 
+   kolom).
+=> Untuk memanipulasi data pada relational database digunakan 
+   sebuah bahasa yang disebut dengan Structured Query Language 
+   (SQL).   
+=> Contoh Relational Database:
+   ● MySQL
+   ● MariaDB
+   ● PostgreSQL
+   ● SQL Server
+   ● Oracle
+=> PostgreSQL adalah sebuah relational database manajemen system 
+   (RDBMS) yang dikembangkan oleh tim relawan yang ada di seluruh 
+   dunia yang bersifat open source.
+=> PostgreSQL tidak dikelola oleh perusahaan atau badan swasta 
+   lainnya, sehingga source code (kode program) yang tersedia bisa 
+   di dapatkan secara gratis.
+=> Fitur-fitur dari PostgreSQL: 
+   Point-in-time
+   Savepoints
+   Tablespace 
+   Inheritance
+   Help
+   Rule
+   OO
+
+      
