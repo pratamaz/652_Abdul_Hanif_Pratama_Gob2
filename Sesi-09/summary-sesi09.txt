@@ -1,0 +1,15 @@
+Kode Peserta	: 149368582101-652 
+Nama Lengkap 	: Abdul Hanif Pratama
+Summary         : Sesi 09 - HTTP Request
+
+==========================================================
+			    HTTP Basic Auth
+==========================================================
+
+=> HTTP Basic Auth adalah salah satu teknik otentikasi http request. 
+Metode ini membutuhkan informasi usernamedan password untuk disisipkan 
+dalam header request (dengan format tertentu), jadi cukup sederhana, 
+tidak memerlukan cookies maupun session.
+=> Go menyediakan fungsi untuk meng-handle request basic auth dengan 
+cukup mudah, jadi tidak perlu untukmemparsing header request terlebih 
+dahulu untuk mendapatkan informasi username dan password.
