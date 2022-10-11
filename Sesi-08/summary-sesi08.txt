@@ -1,0 +1,11 @@
+Kode Peserta	: 149368582101-652 
+Nama Lengkap 	: Abdul Hanif Pratama
+Summary         : Sesi 08 - JSON - URL Parsing
+
+==========================================================
+			    JSON & URL Parsing
+==========================================================
+=> Belajar Decoding & Parsing JSON Data
+=> Belajar URL Parsing
+=> Belajar Swaggo
+=> Belajar Build Rest-Api
