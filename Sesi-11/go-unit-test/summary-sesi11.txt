@@ -1,0 +1,42 @@
+Kode Peserta	: 149368582101-652 
+Nama Lengkap 	: Abdul Hanif Pratama
+Summary         : Sesi 10 - Middleware
+
+==========================================================
+			    Go Unit Test
+==========================================================
+
+=> Terdapat aturan dari penamaan file test yang harus kita ikuti 
+untuk membuat file testing pada bahasa Go. Berikut merupakan aturannya:
+● File testing harus diakhiri dengan penamaan _test.go
+● Misalkan kita mempunyai sebuah file bernama calculation.go, 
+dan ketika kita ingin membuat file testinguntuk file calculation.go, 
+maka perlu membuat file dengan nama calculation_test.go. Perlu diingat 
+disini bahwa penaman file testing boleh bebas, asalkan di akhiri dengan 
+penaman _test.go
+
+=> Terdapat aturan dalam membuat function testing pada Go, yaitu :
+● Function untuk testing harus diwali dengan penamaan Test.
+● Misalkan kita mempunyai suatu function bernama sum dan kita 
+ingin membuat unit test dari functiontersebut, maka kita dapat
+memberikan nama untuk function unit test kita seperti TestSum.
+● Perlu diingat disini bahwa tidak ada aturan untuk nama belakang 
+dari suatu function testing, yangterpenting adalah harus diawali 
+dengan penaman Test.
+● Kemudian function testing harus menerima satu parameter dengan 
+tipe data *testing.T dan tidakmengembalikan suatu return value apapun. 
+Tipe data *testing.T merupakaan sebuah struct dari packagetesting untuk 
+membuat suatu unit test.
+
+
+=> 4 method untuk menggagalkan sebuah unit test :
+● t.Fail() : Digunakan untuk menggagalkan sebuah unit test namun 
+proses eksekusi dari unit  test nya tidak akan terhenti.
+● t.FailNow() : Digunakan untuk menggagalkan sebuah unit test namun 
+dan proses eksekusi nya akan terhenti pada unittest tersebut dan unit 
+test lainnya tidak akan tereksekusi.
+● t.Error(...args) : Digunakan untuk menggagalkan sebuah unit test 
+sekaligus melakukan logging dari errornya agar kitadapat membuat pesan 
+dari error yang terjadi.
+● t.Fatal(...args) : Fungsi nya mirip seperti  t.FailNow(), namun t.Fatal(...args) 
+dapat melakukan logging dari pesanerrornya.
