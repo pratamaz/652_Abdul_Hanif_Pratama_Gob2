@@ -1,0 +1,85 @@
+Kode Peserta	: 149368582101-652 
+Nama Lengkap 	: Abdul Hanif Pratama
+Summary        : Sesi 03 - Function, Method, Pointer,
+                 Struct, & Exported-Unexported
+ 
+==========================================================
+			    Function
+==========================================================
+=> Fungsi adalah sekumpulan blok kode yang dibungkus dengan
+   nama tertentu
+=> Cara menulis sebuah function pada Go dengan menggunakan 
+   keyword func lalu diikuti dengan nama function dan parameter 
+   yang digunakan.   
+=> Fungsi return digunakan untuk mengmbalikan sebuah nilai 
+   bahkan bisa lebih dari satu nilai.
+=> Fungsi variadic() merupakan dapat menerima argumen yang tak 
+   terbatas jumlahnya   
+=> Untuk mendeklarasikan fungsi variadic yaitu Dengan menambahkan 
+   tanda titik tiga tersebut pada sebuah parameter.   
+
+==========================================================
+			    Closure
+==========================================================   
+=> Closure merupakan merupakan sebuah anonymous function atau 
+   function tanpa nama yang dapat disimpan sebagai sebuah 
+   variable maupun dapat dijadikan sebagai nilai return dari 
+   sebuah function.
+=> Dengan menerapkan konsep tersebut, kita bisa membuat
+   fungsi di dalam fungsi, atau bahkan membuat fungsi yang 
+   mengembalikan fungsi    
+=> Closure (IIFE) IIFE atau singkatan dari immediately-invoked 
+   function expression merupakan sebuah closure yang dapat 
+   langsung tereksekusi ketika pertama kali dideklarasikan  
+=> Closure juga bisa dijadikan sebagai nilai kembalian dari 
+   suatu function.    
+=> Callback adalah sebuah closure yang dijadikan sebagai parameter 
+   pada sebuah function   
+
+==========================================================
+			    Pointer
+========================================================== 
+=> Pointer merupakan sebuah variable spesial yang digunakan untuk 
+   menyimpan alamat memori variable lainnya. 
+=> Variabel bertipe pointer ditandai dengan adanya tanda asterisk 
+   ( * ) tepat sebelum penulisan tipe data ketika deklarasi.
+=> Variabel biasa bisa diambil nilai pointernya, caranya dengan 
+   menambahkan tanda ampersand ( & ) tepat sebelum nama variabel.
+   Metode ini disebut dengan referencing.
+=> Dan sebaliknya, nilai asli variabel pointer juga bisa diambil, 
+   dengan cara menambahkan tanda asterisk ( * ) tepat sebelum nama
+   variabel. Metode ini disebut dengan dereferencing.  
+=> Untuk mendapatkan alamat memori dari variable biasa bisa menggunakan 
+   tanda ampersand &.
+=> Untuk mendapatkan nilai asli dari variable pointer bisa dengan cara 
+   menggunakan tanda asterisk *.
+=> Ketika kita mengganti nilai dari sebuah pointer, maka variable lainnya 
+   yang mempunyai alamat memori yang sama, akan ikut terganti nilainya    
+
+==========================================================
+			    Struct
+==========================================================     
+=> Struct adalah sebuah tipe data berupa kumpulan/koleksi dari berbagai 
+   macam property/field dan juga method.
+=> Untuk membuat sebuah tipe data struct , perlu membuat terlebih dahulu 
+   strukturnya dengan urutan format penulisan:
+   ● Penulisan keyword type
+   ● Nama dari struct
+   ● Penulisan keyword struct
+   ● Kemudian diikuti dengan tanda kurung kurawal {}
+   ● Mendefinisikan field yang diinginkan
+=> Struct dapat mengandung tipe data struct lainnya dengan menjadikannya 
+   sebuah field   
+=> Anonymous struct adalah sebuah struct yang tidak dideklerasikan di awal 
+   sebagai sebuah tipe data struct baru, melainkan langsung dideklerasikan 
+   bersamaan dengan pembuatan variable.   
+
+==========================================================
+			    Exported & Unexported
+==========================================================        
+=> Kita dapat menggunakan berbagai variable ataupun tipe data dari package 
+   lainnya asalkan variable atau tipe data lainnya tersebut telah ter-eksport 
+   dari package nya. 
+=> meng-eksport suatu variable atau suatu tipe data adalah dengan mengawali 
+   penulisan variable maupun tipe data lainnya dengan huruf kapital atau 
+   upper case.    

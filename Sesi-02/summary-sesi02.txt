@@ -1,0 +1,92 @@
+Kode Peserta	: 149368582101-652 
+Nama Lengkap 	: Abdul Hanif Pratama
+Summary           : Sesi 02 - Fundamental Go Programming
+ 
+========================================================
+			    Conditions
+========================================================
+=> Kondisional pada pemrograman dapat digunakan untuk 
+   mengatur alur dari suatu program. Pada bahasa Go, 
+   terdapat 2 macam kondisional yang dapat kita pakai 
+   yaitu if else dan switch.
+=> Variabel temporary adalah variabel yang hanya bisa 
+   digunakan pada blok seleksi kondisi di mana ia 
+   ditempatkan saja
+=> Keyword fallthrough digunakan untuk memaksa proses 
+   pengecekan diteruskan ke satu case selanjutnya dengan 
+   tanpa menghiraukan nilai kondisinya, jadi satu case di 
+   pengecekan selanjutnya tersebut selalu dianggap benar. 
+=> Belajar menggunakan if else pada Go
+=> Belajar menggunakan switch pada Go
+=> Belajar nested conditions
+
+========================================================
+			      Looping
+========================================================
+=> Perulangan adalah proses mengulang-ulang eksekusi blok 
+   kode tanpa henti, selama kondisi yang dijadikan acuan 
+   terpenuhi
+=> Bahasa Go hanya memiliki satu looping yaitu looping 
+   dengan menggunakan keyword for (for loop).
+=> Cara melakukan loopings :
+a. first way of looping
+b. second way of looping
+c. third way of looping
+d. nested looping
+
+
+========================================================
+				Array
+========================================================
+=> Array adalah kumpulan data bertipe sama, yang disimpan 
+   dalam sebuah variabel.
+=> Array pada Go harus memiliki tipe data yang sama, dan 
+   memiliki sifat fixed-length
+
+
+========================================================
+			      Slice
+========================================================
+=> Slice merupakan tipe data reference atau referensi
+=> Slice tidak memiliki sifat fixed-length
+=> Slice termasuk ke dalam reference type
+=> Menginisialisasi slice hampir sama dengan array, bisa 
+   juga dengan menggunakan fungsi make()
+=> Menambahkan element pada slice dapat menggunakan elemen
+   indexnya atau bisa juga dengan fungsi append()
+=> untuk meng-copy seluruh element pada sebuah slice ke dalam 
+   slice lainnya kita bisa gunakan fungsi copy().
+=> Untuk mendapatkan element-element darisebuah slice dan kita 
+   juga bisa menentukan element dari index keberapa yang ingin 
+   kita dapatkan. Caranya adalah dengan menggunakan slicing.
+=> Backing array akan bertugas untuk menyimpan element pada slice 
+   bukan slice nya sendiri      
+
+========================================================
+				 Map
+========================================================   
+=> Map berfungsi untuk menyimpan satu atau lebih data namun, 
+   map disimpan sebagai key:value pairs (pasang key dan value).
+=> Map termasuk ke dalam kategori reference type
+=> Zero value dari tipe data map adalah nilai
+=> Untuk menghapus value dari sebuah map kita bisa menggunakan
+   fungsi delete()
+=> Untuk mendeteksi keberadaan suatu value bisa dengan mengakses
+   key daari mapnya lalu memberikan 2 variabel sebagai penampungnya
+
+
+========================================================
+				Aliase
+======================================================== 
+=> Aliase merupakan sebuah fitu pada bahasa Go yang digunakan sebagai 
+   nama alternative dari tipe data yangsudah ada.
+=> Tipe data byte merupakan tipe data aliase dari tipe data uint8
+=> Tipe data rune merupakan tipe data aliase dari tipe data uint32  
+
+
+========================================================
+			Strings In Depth
+======================================================== 
+=> Tipe data string pada Go terbentuk dari kumpulan tipe 
+   data byte yang di letakkan di dalam slice atau bisa 
+   kita sebut dengan slice of bytes

@@ -1,0 +1,55 @@
+Kode Peserta	: 149368582101-652 
+Nama Lengkap 	: Abdul Hanif Pratama
+Summary         : Sesi 04 - Interface, Reflect, Go      
+                  Routines &  Waitgroup
+
+ 
+==========================================================
+			    Interface
+==========================================================
+
+=> Interface adalah sebuah tipe data pada bahasa Go yang 
+   merupakan kumpulan dari definisi satu atau lebih method.
+=> Ketika sebuah struct menambahkan satu method selain 
+   dari method-method yang didefinisikan oleh interface, maka variable yang digunakan tidak dapat menggunakan method baru tersebut.   
+=> Hal ini terjadi karena interface tidak mendifinisikan 
+   method baru tersebut dan variabel yang digunakan telah 
+   dibuat menjadi sebuah variabel dengan tipe data interface. 
+=> Untuk menanggulangi error tersebut, diperlukan teknik   
+   type assertion yang dimana teknik ini berfungsi untuk mengembalikan suatu tipe data interface kepada tipe data aslinya.
+
+==========================================================
+			    Empty Interface
+==========================================================
+
+=> Empty interface merupakan suatu tipe data yang dapat    menerima segala tipe data pada bahasa.
+=> sebuah variable dengan tipe data empty interface dapat diberikan nilai dengan tipe data yang berbeda-beda.
+=> Ketika sebuah map dideklarasikan dan value-value nya diberikan tipe data empty interface, maka map tersebut dapat memiliki value dengan tipe data yang berbeda-beda.
+=> Sama halnya dengan slice ataupun array, ketika dideklarasikan dan isinya diberi tipe data empty interface maka slice atau array tersebut dapat memiliki nilai dengan tipe data yang berbeda-beda.
+
+==========================================================
+			    Reflect
+==========================================================
+
+=> Reflect digunakan untuk melakukan  inspeksi variabel, mengambil informasi dari variabel tersebut atau bahkan memanipulasinya.
+=> Dari banyak fungsi yang tersedia di dalam package reflect, ada 2 fungsi yang paling penting untuk diketahui, yaitu reflect.ValueOf() dan reflect.TypeOf()
+    a.  Fungsi reflect.ValueOf() akan mengembalikan objek dalam tipe reflect.Value, yang berisikan informasi yangberhubungan dengan nilai pada variabel yang dicari
+    b.  Fungsi reflect.TypeOf() mengembalikan objek dalam tipe reflect.Type. Objek tersebut berisikan informasi yangberhubungan dengan tipe data variabel yang dicari
+
+==========================================================
+			    Concurrency - Goroutines
+==========================================================
+A. Concurrency
+=> Currency adalah mengeksekusi sebuah proses secara independen atau berhadapan dengan lebih dari satu tugas dalam waktu yang sama.
+
+B. Goroutines
+=> Goroutine merupakan sebuah thread ringan pada bahasa Go untuk melakukan concurrency.
+=> Goroutine bersifat asynchronous sehingga proses nya tidak saling tunggu dengan Goroutine lainnya.
+=> Untuk membuat sebuah Goroutine, maka kita harus terlebih dahulu membuat sebuah function. Lalu ketika kita ingin memanggil function tersebut, maka kita perlu menggunakan keyword go sebelum kita memanggil function tersebut
+=> Ketika menjalankan sebuah Goroutine, maka Goroutine tersebut akan membutuhkan waktu yang sedikit lebih lama untuk memulai dibandingkan dengan function biasa.
+
+==========================================================
+			    Waitgroup
+==========================================================
+
+=> Waitgroup merupakan sebuah struct dari package sync, yang digunakan untuk melakukan sinkronisasi terhadap goroutine
